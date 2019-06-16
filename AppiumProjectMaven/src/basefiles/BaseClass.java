@@ -16,13 +16,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import pageObjects.FlightsPage;
-import pageObjects.HolidaysPage;
-import pageObjects.HomePage;
-import pageObjects.HotelPage;
 
 public class BaseClass {
 	public static AppiumDriver<AndroidElement> driver;
