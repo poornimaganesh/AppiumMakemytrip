@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AppiumProjectMaven by packages]">
+  <listeners>
+    <listener class-name="listeners.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="tests.makemytrip(failed)">
+    <classes>
+      <class name="tests.makemytrip.MMTCredentials_01">
+        <methods>
+          <include name="HomepageVerify"/>
+          <include name="initiate"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- tests.makemytrip.MMTCredentials_01 -->
+    </classes>
+  </test> <!-- tests.makemytrip(failed) -->
+</suite> <!-- Failed suite [AppiumProjectMaven by packages] -->

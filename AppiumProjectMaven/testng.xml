@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite guice-stage="DEVELOPMENT" name="AppiumProjectMaven by packages"> 
+    <listeners>
+        <listener class-name="listeners.ListenerTest"></listener>
+    </listeners>
+  <test verbose="3" name="tests.makemytrip"> 
+     <classes> 
+      <class name="tests.makemytrip.Checkboxtest"/> 
+      <class name="tests.makemytrip.Dragdroptest"/>
+      <class name="tests.makemytrip.MMTCredentials_01"/> 
+    </classes> 
+  </test> <!-- tests.makemytrip --> 
+</suite> <!-- AppiumProjectMaven by packages --> 
